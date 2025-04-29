@@ -1,0 +1,39 @@
+body {
+  background-color: #333;
+  font-family: Arial, sans-serif;
+  color: #eee;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-style: italic;
+  color: #356B74;
+}
+
+img {
+  background-color: #eee;
+  border-radius: 16px;
+  width: 200px;
+  height: auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #356B74;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.1s ease;
+  &:hover {
+    background-color: #2a4d54;
+  }
+}
