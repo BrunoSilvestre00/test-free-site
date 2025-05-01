@@ -23,6 +23,12 @@ img {
   height: auto;
 }
 
+.astronauta {
+  width: 90%;
+  height: auto;
+  border: none;
+}
+
 button {
   padding: 10px 20px;
   background-color: #356B74;
